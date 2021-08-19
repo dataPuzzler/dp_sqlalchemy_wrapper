@@ -3,6 +3,6 @@
 	:alt: Unit-tests Badge
 
 dp_sqlalchemy_wrapper
-=============
+=====================
 
 A slim wrapper around sqlalchemy to simplify database setup and common operations.
