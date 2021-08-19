@@ -72,7 +72,7 @@ setup(
     #
    packages=find_packages(
         where='src',
-        include=['dp_json_util'],
+        include=['dp_sqlalchemy_wrapper'],
         exclude=['tests', ".venv"]
    ),
 
