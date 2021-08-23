@@ -5,14 +5,12 @@
 dp_sqlalchemy_wrapper
 =====================
 
-A slim wrapper around sqlalchemy to simplify database setup and common operations.
-
 *dp_sqlalchemy_wrapper* is a slim wrapper around sqlalchemy to accelerate database setup and to ease common database operations.
 
 Installing
 ----------
 
-Install and update using `pip`_:
+Install and update using `pip`:
 
 .. code-block:: text
 
