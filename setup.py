@@ -100,10 +100,10 @@ setup(
     #
     # Similar to `install_requires` above, these must be valid existing
     # projects.
-    # extras_require={  # Optional
-    #     'dev': [],
-    #     'test': ['pytest', 'pytest-depends'],
-    # },
+    extras_require={  # Optional
+        'json_fill': ['dp_json_util>=2.0'],
+        'test': [],
+    },
 
     # If there are data files included in your packages that need to be
     # installed, specify them here.

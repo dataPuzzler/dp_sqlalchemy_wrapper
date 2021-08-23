@@ -42,6 +42,7 @@ def test_calling_ModelBase_property_return_Base(emptyTestDB: BaseDB):
 def test_count_declared_tables(emptyTestDB: BaseDB):
     import sqlalchemy as sa
     assert emptyTestDB.count_declared_tables() == 0
+    
     class SampleTable(emptyTestDB.Base):
         sa.Column("key", sa.String, unique=True)
     
